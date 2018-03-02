@@ -14,7 +14,7 @@ namespace DougKlassen.Revit.NewAddIn.StartUp
 		public static String AddInDirectory;
 		//AssemblyName is initialized at runtime
 		public static String AssemblyName;
-		public static readonly String imperialTemplateDirectory = @"X:\CAD\_REVIT 2016\Family Templates\English_I\";
+		public static readonly String imperialTemplateDirectory = @"X:\CAD\_REVIT 2018\Family Templates\English_I\";
 		public static readonly String ResourceNameSpace = @"DougKlassen.Revit.NewAddIn.Resources";
 	}
 
