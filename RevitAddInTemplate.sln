@@ -1,22 +1,40 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Windows Desktop
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RevitAddInTemplate", "project\RevitAddInTemplate.csproj", "{579F7194-30E6-4421-8588-E62AE7A55733}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Rvt2014|Any CPU = Rvt2014|Any CPU
+		Rvt2015|Any CPU = Rvt2015|Any CPU
+		Rvt2016|Any CPU = Rvt2016|Any CPU
+		Rvt2017|Any CPU = Rvt2017|Any CPU
+		Rvt2018|Any CPU = Rvt2018|Any CPU
+		Rvt2019|Any CPU = Rvt2019|Any CPU
+		Rvt2020|Any CPU = Rvt2020|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{579F7194-30E6-4421-8588-E62AE7A55733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{579F7194-30E6-4421-8588-E62AE7A55733}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{579F7194-30E6-4421-8588-E62AE7A55733}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{579F7194-30E6-4421-8588-E62AE7A55733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579F7194-30E6-4421-8588-E62AE7A55733}.Rvt2014|Any CPU.ActiveCfg = Rvt2014|Any CPU
+		{579F7194-30E6-4421-8588-E62AE7A55733}.Rvt2014|Any CPU.Build.0 = Rvt2014|Any CPU
+		{579F7194-30E6-4421-8588-E62AE7A55733}.Rvt2015|Any CPU.ActiveCfg = Rvt2015|Any CPU
+		{579F7194-30E6-4421-8588-E62AE7A55733}.Rvt2015|Any CPU.Build.0 = Rvt2015|Any CPU
+		{579F7194-30E6-4421-8588-E62AE7A55733}.Rvt2016|Any CPU.ActiveCfg = Rvt2016|Any CPU
+		{579F7194-30E6-4421-8588-E62AE7A55733}.Rvt2016|Any CPU.Build.0 = Rvt2016|Any CPU
+		{579F7194-30E6-4421-8588-E62AE7A55733}.Rvt2017|Any CPU.ActiveCfg = Rvt2017|Any CPU
+		{579F7194-30E6-4421-8588-E62AE7A55733}.Rvt2017|Any CPU.Build.0 = Rvt2017|Any CPU
+		{579F7194-30E6-4421-8588-E62AE7A55733}.Rvt2018|Any CPU.ActiveCfg = Rvt2018|Any CPU
+		{579F7194-30E6-4421-8588-E62AE7A55733}.Rvt2018|Any CPU.Build.0 = Rvt2018|Any CPU
+		{579F7194-30E6-4421-8588-E62AE7A55733}.Rvt2019|Any CPU.ActiveCfg = Rvt2019|Any CPU
+		{579F7194-30E6-4421-8588-E62AE7A55733}.Rvt2019|Any CPU.Build.0 = Rvt2019|Any CPU
+		{579F7194-30E6-4421-8588-E62AE7A55733}.Rvt2020|Any CPU.ActiveCfg = Rvt2020|Any CPU
+		{579F7194-30E6-4421-8588-E62AE7A55733}.Rvt2020|Any CPU.Build.0 = Rvt2020|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {312A9968-C356-444B-A36A-365883613CF9}
 	EndGlobalSection
 EndGlobal
