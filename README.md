@@ -27,8 +27,7 @@ When Revit is run it looks for ```.addin``` manifest files to use for loading ad
     - Change the *Assembly Name* from ```NewAddIn```
     - Change the *Default Namespace* from ```DougKlassen.Revit.NewAddIn```
     - Update the fields in the *Assembly Information* dialog
-- ### Update the ```NewAddIn.cs``` file:
-    - Rename the file to match your assembly name
+- ### Update the ```StartUpApp.cs``` file:
     - Update the namespace declaration.
     - Within the ```FileLocations``` class, update the value of ```ResouceNameSpace``` per the correct namespace.
     - Within the ```StartUpApp``` class, update ```newCommandPushButtonData``` to correspond to your actual addin command.
