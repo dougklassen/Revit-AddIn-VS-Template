@@ -130,12 +130,9 @@
     <EmbeddedResource Include="Resources\iconLarge.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!--begin build events-->
-  <!--These will copy the .addin manifest to the version's addin folder and the addin .dll to a named subfolder referenced by the addin-->
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
-       Other similar extension points exist, see Microsoft.Common.targets.
-  <Target Name="BeforeBuild">
+  <!--<Target Name="BeforeBuild">
   </Target>-->
+  <!--These post-build commands will copy the .addin manifest to the version's addin folder and the addin .dll to a named subfolder referenced by the addin-->
   <Target Name="AfterBuild">
     <Exec Command="xcopy &quot;$(ProjectDir)$(OutDir)$(AssemblyName).pdb&quot; &quot;C:\ProgramData\Autodesk\Revit\Addins\$(VersionNumber)\$(AssemblyName)\&quot; /s /y /i" />
     <Exec Command="xcopy &quot;$(ProjectDir)$(OutDir)$(AssemblyName).dll&quot; &quot;C:\ProgramData\Autodesk\Revit\Addins\$(VersionNumber)\$(AssemblyName)\&quot; /s /y /i" />

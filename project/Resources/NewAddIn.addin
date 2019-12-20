@@ -6,7 +6,7 @@
     <FullClassName>DougKlassen.Revit.NewAddIn.Commands.NewCommand</FullClassName>
     <Text>New Command</Text>
     <VendorId>Vendor</VendorId>
-    <VendorDescription>Doug Klassen</VendorDescription>
+    <VendorDescription>Description</VendorDescription>
   </AddIn>
   <AddIn Type="Application">
     <Name>NewAddInPanel</Name>
@@ -14,6 +14,6 @@
     <AddInId>f78e5539-0065-4bbd-8cf1-be086c1b6d1a</AddInId>
     <FullClassName>DougKlassen.Revit.NewAddIn.StartUp.StartUpApp</FullClassName>
     <VendorId>Vendor</VendorId>
-    <VendorDescription>Doug Klassen</VendorDescription>
+    <VendorDescription>Description</VendorDescription>
   </AddIn>
 </RevitAddIns>
