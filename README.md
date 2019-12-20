@@ -42,3 +42,4 @@ When Revit is run it looks for ```.addin``` manifest files to use for loading ad
     - Within ```<Application>```, update the ```<Assembly>``` property to match the actual path to your addin's ```.dll``` file.
     - Within ```<Application>```, update the ```<FullClassName>``` property with the fully qualified class name for your application's startup class.
     - Update ```<VendorId>``` and ```<VendorDescription>``` fields with correct information. Note these fields will be displayed by Revit if your addin throws an exception. 
+    - Update ```<AddInId>``` with a new GUID.
